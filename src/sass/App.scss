@@ -1,0 +1,122 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+
+.center {
+  height: 100vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.settings {
+    font-size: 20px;
+    margin-bottom:250px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+//!Loader
+/* LOADER */
+.loader {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 9999;
+
+    background: white;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.disppear {
+    -webkit-animation: vanish 1s forwards;
+            animation: vanish 1s forwards;
+}
+
+.spinner {
+
+  width: 44px;
+  height: 44px;
+
+  -webkit-animation: spinner 2s infinite ease;
+
+          animation: spinner 2s infinite ease;
+  transform-style: preserve-3d;
+
+}
+
+.spinner > div { 
+
+  position: absolute;
+
+  background-color: rgb(61, 23, 102);
+
+  height: 100%;
+  width: 100%;
+
+}
+
+@-webkit-keyframes vanish {
+ 
+    100% {
+        opacity: 1;
+        visibility: hidden;
+    }
+
+}
+
+@keyframes vanish {
+ 
+    100% {
+        opacity: 1;
+        visibility: hidden;
+    }
+
+}
+
+@keyframes spinner {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+//!
+
+span a {
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+}

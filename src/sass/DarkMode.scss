@@ -1,0 +1,170 @@
+/* Dark Mode */
+.dark,
+.dark .loader,
+.dark .container form {
+    background-color: #121212;
+    color: #ffff;
+}
+
+.dark i,
+.dark a,
+.dark .closeBtn,
+.dark .features a{
+    color: #ffff;
+}
+
+.dark .info-icons a {
+    color: #fff;
+}
+.dark .spinner > div{
+    background-color: hsl(269, 48%, 54%);
+}
+
+.dark .bar {
+    background-color: #ffff;
+}
+
+.dark .works img,
+.dark .container form {
+     box-shadow: 0px 12px 20px rgba(46, 46, 46, 0.6);
+}
+
+.dark .btn:focus, 
+.dark .btn:hover,
+.dark .btn:active,
+.dark form button:hover,
+.dark form button:active,
+.dark form button:focus {
+        background: transparent;
+        color: #8750C2;
+}
+
+.dark .btn,
+.dark form button{
+    border: 1px solid #8750C2;
+    background:#8750C2;
+}
+
+.dark .coffee-lover {
+    color: #8750C2;
+}
+
+.dark .features h3 i {
+    color: #8750C2;
+    border: 1px solid #8750C2;
+}
+
+.dark .input-group input,
+.dark .input-group textarea{
+    color: #ffff;
+}
+
+.dark .background span:nth-child(0) {
+    color:#8750C2;
+    top: 22%;
+    left: 65%;
+    animation-duration: 54s;
+    animation-delay: -59s;
+    transform-origin: -15vw 15vh;
+    box-shadow: 2vmin 0 0.43399384633258675vmin currentColor;
+}
+
+.dark .background span:nth-child(1) {
+    color:#8750C2;
+    top: 9%;
+    left: 87%;
+    animation-duration: 70s;
+    animation-delay: -100s;
+    transform-origin: -8vw 2vh;
+    box-shadow: -2vmin 0 0.8228009976935391vmin currentColor;
+}
+
+.dark .background span:nth-child(2) {
+    color: #8750C2;
+    top: 80%;
+    left: 9%;
+    animation-duration: 6s;
+    animation-delay: -59s;
+    transform-origin: -21vw 13vh;
+    box-shadow: -2vmin 0 0.6329919027653527vmin currentColor;
+}
+
+.dark .background span:nth-child(3) {
+    color: #8750C2;
+    top: 25%;
+    left: 54%;
+    animation-duration: 42s;
+    animation-delay: -52s;
+    transform-origin: 22vw 12vh;
+    box-shadow: -2vmin 0 0.5493838449022047vmin currentColor;
+}
+
+.dark .background span:nth-child(4) {
+    color: #8750C2;
+    top: 68%;
+    left: 71%;
+    animation-duration: 68s;
+    animation-delay: -64s;
+    transform-origin: 8vw -20vh;
+    box-shadow: 2vmin 0 0.5612237645988479vmin currentColor;
+}
+
+.dark .background span:nth-child(5) {
+    color: #8750C2;
+    top: 61%;
+    left: 95%;
+    animation-duration: 64s;
+    animation-delay: -66s;
+    transform-origin: -11vw -15vh;
+    box-shadow: -2vmin 0 0.4564897802309602vmin currentColor;
+}
+
+.dark .background span:nth-child(6) {
+    color: #8750C2;
+    top: 38%;
+    left: 46%;
+    animation-duration: 101s;
+    animation-delay: -72s;
+    transform-origin: 20vw 23vh;
+    box-shadow: 2vmin 0 1.1987831408812224vmin currentColor;
+}
+
+.dark .background span:nth-child(7) {
+    color: #8750C2;
+    top: 98%;
+    left: 2%;
+    animation-duration: 105s;
+    animation-delay: -46s;
+    transform-origin: -12vw 16vh;
+    box-shadow: 2vmin 0 0.4768616134318925vmin currentColor;
+}
+
+.dark .background span:nth-child(8) {
+    color: #8750C2;
+    top: 82%;
+    left: 43%;
+    animation-duration: 49s;
+    animation-delay: -9s;
+    transform-origin: -23vw 16vh;
+    box-shadow: 2vmin 0 1.17899926138241vmin currentColor;
+}
+
+.dark .background span:nth-child(9) {
+    color: #8750C2;
+    top: 11%;
+    left: 84%;
+    animation-duration: 60s;
+    animation-delay: -61s;
+    transform-origin: 6vw -18vh;
+    box-shadow: -2vmin 0 0.8529180589744484vmin currentColor;
+}
+
+.dark .background span:nth-child(10) {
+    color: #8750C2;
+    top: 87%;
+    left: 37%;
+    animation-duration: 75s;
+    animation-delay: -6s;
+    transform-origin: -7vw 4vh;
+    box-shadow: -2vmin 0 0.9602496934814885vmin currentColor;
+} 

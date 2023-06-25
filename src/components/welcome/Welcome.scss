@@ -1,0 +1,149 @@
+.introduction {
+  padding-top: 180px;
+
+  h2 {
+    font-size: 60px;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 42px;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+  }
+
+  .item1 {
+    line-height: 30px;
+    margin-bottom: 115px;
+  }
+
+  .item2 {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    .item1 h3 {
+      font-size: 35px;
+    }
+
+    .item2 {
+      margin-bottom: 60px;
+    }
+
+    .item1 {
+      margin-bottom: 40px;
+      line-height: 60px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .introduction {
+    padding-top: 100px;
+  }
+}
+//!
+
+//!FLEXBOX
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+//!
+
+//!/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 470px) {
+  .social-icons {
+    position: unset;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin: auto;
+  }
+
+  .social-icons a {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .social-icons a {
+    margin-left: 25px;
+
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .social-icons a {
+    margin-left: 25px;
+
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .social-icons a {
+    margin-left: 25px;
+
+    margin-right: 5px;
+  }
+}
+
+.social-icons a {
+  font-size: 25px;
+
+  color: black;
+
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-top: 10px;
+
+  padding: 0.11em 0.29em;
+
+  display: inline-block;
+}
+
+.dark a {
+  color: #ffff;
+}
+//!
+
+/* HOVERS */
+.btn:focus,
+.btn:hover,
+.btn:active {
+  background: transparent;
+  color: rgb(61, 23, 102);
+}
+
+/* BUTTON */
+.btn {
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid #3d1766;
+  padding: 20px 50px 20px 50px;
+  background: #3d1766;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.coffee-lover {
+  color: #3d1766;
+}
