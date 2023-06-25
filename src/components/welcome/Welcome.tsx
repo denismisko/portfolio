@@ -7,7 +7,7 @@ import {
   faGithub,
   faTwitter,
   faLinkedin,
-  faInstagram
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Welcome() {
@@ -50,7 +50,11 @@ function Welcome() {
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" title="Twitter">
+          <a
+            href="https://www.instagram.com/dm_freelancing/"
+            target="_blank"
+            title="Instagram"
+          >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a

@@ -45,7 +45,9 @@ function Header() {
 
         <nav className="main-nav">
           <h1 className="logo">
-            <a href="#">DM.</a>
+            <a href="/" rel="noopener noreferrer">
+              DM.
+            </a>
           </h1>
 
           <ul className={`menu nav-menu group ${isActive ? "active" : ""}`}>

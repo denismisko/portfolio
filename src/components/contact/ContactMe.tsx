@@ -22,7 +22,9 @@ function ContactMe() {
     <section className="settings hidden">
       <div className="container flexbox-contact">
         <span>
-          <a href="/">&#8594;</a>
+          <a href="/" rel="noopener noreferrer">
+            &#8594;
+          </a>
         </span>
         <form onSubmit={handleSubmit}>
           <p className="text-center">i will message back asap.</p>

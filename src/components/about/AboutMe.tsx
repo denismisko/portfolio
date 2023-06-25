@@ -11,7 +11,9 @@ function About() {
     <section id="about-me" className="settings about-me">
       <div className="container">
         <span>
-          <a href="/">&#8594;</a>
+          <a href="/" rel="noopener noreferrer">
+            &#8594;
+          </a>
         </span>
         <h2 className="text-center">About me.</h2>
 

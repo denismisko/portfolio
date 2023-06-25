@@ -60,7 +60,9 @@ function MyWorks() {
     <section className="settings hidden works">
       <div className="container">
         <span>
-          <a href="/">&#8594;</a>
+          <a href="/" rel="noopener noreferrer">
+            &#8594;
+          </a>
         </span>
         <div className="headline text-center">
           <h2>Showcase of my works.</h2>
