@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./Contact.scss";
 import DarkMode from "../../util/DarkMode";
 import { useForm, ValidationError } from "@formspree/react";

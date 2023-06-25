@@ -5,7 +5,6 @@ import Typed from "typed.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
-  faTwitter,
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
