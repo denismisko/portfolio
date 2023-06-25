@@ -1,7 +1,5 @@
 import './About.scss'
 import DarkMode from '../../util/DarkMode';
-import { faReact,faHtml5, faCss3, faAngular } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function About() {
 
@@ -25,15 +23,6 @@ function About() {
           web design trends to make sure it always looks as modern and clear as
           possible.
         </p>
-
-        {/* <h2 className="text-center">Tech stack.</h2>
-
-        <div className="text-center skills" id="skills">
-          <FontAwesomeIcon icon={faHtml5} />
-          <FontAwesomeIcon icon={faAngular} />
-          <FontAwesomeIcon icon={faCss3} />
-          <FontAwesomeIcon icon={faReact} />
-        </div> */}
       </div>
     </section>
   );

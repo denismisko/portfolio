@@ -7,7 +7,6 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function MyWorks() {
-
   DarkMode();
 
   const works = [
@@ -32,7 +31,7 @@ function MyWorks() {
     },
   ];
 
-  const renderProjects = (projects: any[], isReversed: boolean) => {;
+  const renderProjects = (projects: any[], isReversed: boolean) => {
     return projects.map((project, index) => (
       <div className={`card work ${isReversed ? "reverse" : ""}`} key={index}>
         <div className="card-image">
@@ -47,7 +46,7 @@ function MyWorks() {
             ))}
           </div>
           <div className="info-icons">
-            <a href={project.link} target="_blank">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faEye} />
             </a>
           </div>

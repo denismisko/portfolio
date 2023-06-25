@@ -47,6 +47,7 @@ function Welcome() {
             href="https://github.com/denismisko"
             title="GitHub"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -54,6 +55,7 @@ function Welcome() {
             href="https://www.instagram.com/dm_freelancing/"
             target="_blank"
             title="Instagram"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
@@ -61,6 +63,7 @@ function Welcome() {
             href="https://www.linkedin.com/in/denis-mi%C5%A1kolci-b0007b236/"
             title="LinkedIn"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
