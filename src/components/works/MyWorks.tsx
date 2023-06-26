@@ -14,7 +14,7 @@ function MyWorks() {
       image: hermix,
       name: "Hermix s.r.o.",
       description:
-        "Webová stránka na kosenie je užívateľsky prívetivá platforma,ktorá ponúka rôzne služby súvisiace s kosením pre rôzne typytrávnatých plôch. S podrobnými informáciami, flexibilnýmimožnosťami a jednoduchou navigáciou je to ideálne miesto prevšetky vaše potreby v oblasti kosenia.",
+        "The mowing website is a user-friendly platform that offers different mowing services for different types of lawns. With detailed information, flexible options and easy navigation, it is the ideal place for all your mowing needs.",
       technologies: ["HTML", "CSS"],
       link: "https://www.hermix.sk",
     },
@@ -25,7 +25,7 @@ function MyWorks() {
       image: znavrat,
       name: "Z-Návrat n.o",
       description:
-        "Webová stránka pre resocializačné zariadenie je intuitívna a informačne bohatá platforma, ktorá ponúka podrobné informácie o poslaní, službách a aktivitách zariadenia. S jasnými sekciamitýkajúcimi sa podpory, rehabilitácie a začlenenia do spoločnostije to kľúčový zdroj pre klientov, ich rodiny a odborníkov.",
+        "The website for the resocialization facility is an intuitive and information-rich platform that offers detailed information about the facility's mission, services, and activities. With clear sections on support, rehabilitation and integration into society, it is a key resource for clients, their families and professionals.",
       technologies: ["HTML", "CSS", "JavaScript"],
       link: "https://www.znavrat.sk",
     },
