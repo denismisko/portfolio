@@ -51,7 +51,7 @@ function Welcome() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            href="https://www.instagram.com/dm_freelancing/"
+            href="https://www.instagram.com/dm.coding/"
             target="_blank"
             title="Instagram"
             rel="noopener noreferrer"
