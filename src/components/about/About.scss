@@ -1,18 +1,50 @@
+@import '../../sass/abstracts/variables';
+
 .about-me {
-    margin-bottom: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 0 30px;
 }
 
 .about-me p {
     margin-bottom: 20px;
     text-align: center;
     font-size: 16px;
+    line-height: 150%;
 }
 
 .about-me h2 {
     padding-bottom: 20px;
     font-weight:400 ;
+}
+
+.about-me hr {
+    opacity: .2;
+}
+
+.tech-stack {
+
+    width: 100%;
+
+    h3 {
+        font-size: 25px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }  
+
+}
+
+.icon {
+    color: $black;
 }

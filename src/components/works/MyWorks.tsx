@@ -1,26 +1,15 @@
 import "./Works.scss";
 import "../../sass/DarkMode.scss";
 import DarkMode from "../../util/DarkMode";
-import hermix from "../../assets/hermix.png";
 import znavrat from "../../assets/znavrat.png";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function MyWorks() {
+  
   DarkMode();
 
-  const works = [
-    {
-      image: hermix,
-      name: "Hermix s.r.o.",
-      description:
-        "The mowing website is a user-friendly platform that offers different mowing services for different types of lawns. With detailed information, flexible options and easy navigation, it is the ideal place for all your mowing needs.",
-      technologies: ["HTML", "CSS"],
-      link: "https://www.hermix.sk",
-    },
-  ];
-
-  const reverseWorks = [
+  const works: any = [
     {
       image: znavrat,
       name: "Z-Návrat n.o",
@@ -29,6 +18,10 @@ function MyWorks() {
       technologies: ["HTML", "CSS", "JavaScript"],
       link: "https://www.znavrat.sk",
     },
+  ];
+
+  const reverseWorks: any = [
+    
   ];
 
   const renderProjects = (projects: any[], isReversed: boolean) => {

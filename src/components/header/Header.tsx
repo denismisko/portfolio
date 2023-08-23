@@ -26,7 +26,6 @@ function Header() {
     localStorage.setItem("isDarkMode", isDarkMode ? "true" : "false");
   }, [isDarkMode]);
   
-  
   //MOBILE MENU
   const [isActive, setIsActive] = useState(false);
 

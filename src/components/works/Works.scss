@@ -1,8 +1,10 @@
+@import '../../sass/abstracts/variables';
+
 /* WORKS */
 
 .dark .works {
-    color:#fff;
-    background: #121212;
+    color:$white;
+    background: $dark-bg;
 }
 
 .works img {
@@ -300,5 +302,5 @@
 
 .info-icons a {
     padding-right: 15px;
-    color: black;
+    color: $black;
 }

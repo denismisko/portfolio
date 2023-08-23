@@ -3,6 +3,7 @@
 
 .center {
   height: 100vh;
+  padding-top: 30px;
 }
 
 .text-center {
@@ -11,7 +12,6 @@
 
 .settings {
     font-size: 20px;
-    margin-bottom:250px;
 }
 
 .container {
@@ -118,4 +118,7 @@ span a {
     text-decoration: none;
     font-size: 25px;
     margin: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 5;
 }

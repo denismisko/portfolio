@@ -1,9 +1,11 @@
+@import '../../sass/abstracts/variables';
+
 .header {
   margin: 40px;
 }
 
 .header a {
-  color: black;
+  color: $black;
 }
 
 .header p {
@@ -19,7 +21,7 @@
   width: 90%;
   max-width: 500px;
   padding: 50px 30px 20px;
-  background: #fff;
+  background: $white;
   border-radius: 4px;
   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -77,7 +79,7 @@ form p {
 
 form button {
   background: #3d1766;
-  color: #fff;
+  color: $white;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   padding: 10px 40px;
@@ -141,8 +143,8 @@ form button:focus {
 
 .features h3 i {
   padding: 13px;
-  color: #3d1766;
-  border: 1px solid #3d1766;
+  color: $dark-purple;
+  border: 1px solid $dark-purple;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -152,7 +154,7 @@ form button:focus {
 }
 
 .features a {
-  color: black;
+  color: $black;
   font-size: 16px;
 }
 
@@ -165,7 +167,7 @@ form button:focus {
 
   a {
     text-decoration: none;
-    color: #3d1766;
+    color: $dark-purple;
     padding: 20px 60px 20px 60px;
   }
 
@@ -175,5 +177,5 @@ form button:focus {
 }
 
 .dark .submit-alert a {
-  color: #8750C2;
+  color: $light-purple;
 }

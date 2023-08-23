@@ -2,12 +2,11 @@ import { useEffect } from "react";
 import "../../sass/App.scss";
 import "./Welcome.scss";
 import Typed from "typed.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faGithub,
-  faLinkedin,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+  IconBrandGithub,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+} from "@tabler/icons-react";
 
 function Welcome() {
   useEffect(() => {
@@ -48,7 +47,7 @@ function Welcome() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <IconBrandGithub size={28} />
           </a>
           <a
             href="https://www.instagram.com/dm.uiux/"
@@ -56,7 +55,7 @@ function Welcome() {
             title="Instagram"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faInstagram} />
+            <IconBrandInstagram size={28} />
           </a>
           <a
             href="https://www.linkedin.com/in/denis-mi%C5%A1kolci-b0007b236/"
@@ -64,7 +63,7 @@ function Welcome() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <IconBrandLinkedin size={28} />
           </a>
         </div>
       </div>

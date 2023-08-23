@@ -1,27 +1,30 @@
+@import './abstracts/variables';
+
 /* Dark Mode */
 .dark,
 .dark .loader,
 .dark .container form {
-    background-color: #121212;
-    color: #ffff;
+    background-color: $dark-bg;
+    color: $white;
 }
 
 .dark i,
 .dark a,
+.dark .icon,
 .dark .closeBtn,
 .dark .features a{
-    color: #ffff;
+    color: $white;
 }
 
 .dark .info-icons a {
-    color: #fff;
+    color: $white;
 }
 .dark .spinner > div{
     background-color: hsl(269, 48%, 54%);
 }
 
 .dark .bar {
-    background-color: #ffff;
+    background-color: $white;
 }
 
 .dark .works img,
@@ -36,31 +39,31 @@
 .dark form button:active,
 .dark form button:focus {
         background: transparent;
-        color: #8750C2;
+        color: $light-purple;
 }
 
 .dark .btn,
 .dark form button{
-    border: 1px solid #8750C2;
-    background:#8750C2;
+    border: 1px solid $light-purple;
+    background:$light-purple;
 }
 
 .dark .coffee-lover {
-    color: #8750C2;
+    color: $light-purple;
 }
 
 .dark .features h3 i {
-    color: #8750C2;
-    border: 1px solid #8750C2;
+    color: $light-purple;
+    border: 1px solid $light-purple;
 }
 
 .dark .input-group input,
 .dark .input-group textarea{
-    color: #ffff;
+    color: $white;
 }
 
 .dark .background span:nth-child(0) {
-    color:#8750C2;
+    color:$light-purple;
     top: 22%;
     left: 65%;
     animation-duration: 54s;
@@ -70,7 +73,7 @@
 }
 
 .dark .background span:nth-child(1) {
-    color:#8750C2;
+    color:$light-purple;
     top: 9%;
     left: 87%;
     animation-duration: 70s;
@@ -80,7 +83,7 @@
 }
 
 .dark .background span:nth-child(2) {
-    color: #8750C2;
+    color: $light-purple;
     top: 80%;
     left: 9%;
     animation-duration: 6s;
@@ -90,7 +93,7 @@
 }
 
 .dark .background span:nth-child(3) {
-    color: #8750C2;
+    color: $light-purple;
     top: 25%;
     left: 54%;
     animation-duration: 42s;
@@ -100,7 +103,7 @@
 }
 
 .dark .background span:nth-child(4) {
-    color: #8750C2;
+    color: $light-purple;
     top: 68%;
     left: 71%;
     animation-duration: 68s;
@@ -110,7 +113,7 @@
 }
 
 .dark .background span:nth-child(5) {
-    color: #8750C2;
+    color: $light-purple;
     top: 61%;
     left: 95%;
     animation-duration: 64s;
@@ -120,7 +123,7 @@
 }
 
 .dark .background span:nth-child(6) {
-    color: #8750C2;
+    color: $light-purple;
     top: 38%;
     left: 46%;
     animation-duration: 101s;
@@ -130,7 +133,7 @@
 }
 
 .dark .background span:nth-child(7) {
-    color: #8750C2;
+    color: $light-purple;
     top: 98%;
     left: 2%;
     animation-duration: 105s;
@@ -140,7 +143,7 @@
 }
 
 .dark .background span:nth-child(8) {
-    color: #8750C2;
+    color: $light-purple;
     top: 82%;
     left: 43%;
     animation-duration: 49s;
@@ -150,7 +153,7 @@
 }
 
 .dark .background span:nth-child(9) {
-    color: #8750C2;
+    color: $light-purple;
     top: 11%;
     left: 84%;
     animation-duration: 60s;
@@ -160,7 +163,7 @@
 }
 
 .dark .background span:nth-child(10) {
-    color: #8750C2;
+    color: $light-purple;
     top: 87%;
     left: 37%;
     animation-duration: 75s;

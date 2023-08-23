@@ -26,7 +26,6 @@ function ContactMe() {
           </a>
         </span>
         <form onSubmit={handleSubmit}>
-          <p className="text-center">i will message back asap.</p>
           <h3 className="text-center">Let's stay connected.</h3>
 
           <input type="hidden" name="_subject" value="New message!" />
