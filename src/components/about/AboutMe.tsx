@@ -34,7 +34,6 @@ function About() {
             design trends to make sure it always looks as modern and clear
           </p>
 
-          <img src="" alt="" />
 
           <hr />
         </div>
