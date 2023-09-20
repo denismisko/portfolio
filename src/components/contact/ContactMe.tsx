@@ -1,6 +1,6 @@
 import "./Contact.scss";
 import DarkMode from "../../util/DarkMode";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 function ContactMe() {
   DarkMode();
@@ -38,21 +38,16 @@ function ContactMe() {
               name="name"
               required
             />
-            <ValidationError prefix="Name" field="name" errors={state.errors} />
           </div>
 
           <div className="input-group">
             <input
               type="tel"
+              pattern="^(\+421|00421|0)(\d{3})(\d{3})(\d{3})|^(\+1|001|1)(\d{3})(\d{3})(\d{4})$"
               placeholder="Tel. number"
               name="phone"
               required
               id="contact-phone"
-            />
-            <ValidationError
-              prefix="phone"
-              field="phone"
-              errors={state.errors}
             />
           </div>
 
@@ -64,11 +59,6 @@ function ContactMe() {
               name="email"
               required
             />
-            <ValidationError
-              prefix="Email"
-              field="email"
-              errors={state.errors}
-            />
           </div>
 
           <div className="input-group">
@@ -79,11 +69,6 @@ function ContactMe() {
               name="message"
               required
             ></textarea>
-            <ValidationError
-              prefix="Message"
-              field="message"
-              errors={state.errors}
-            />
           </div>
 
           <button type="submit" disabled={state.submitting}>

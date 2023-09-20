@@ -1,5 +1,7 @@
 import "./Header.scss";
 import '../../sass/DarkMode.scss'
+import black_logo from '../../assets/black_logo.png'
+import white_logo from '../../assets/white_logo.png'
 import { useState, useEffect, useRef } from "react";
 
 function Header() {
@@ -45,7 +47,11 @@ function Header() {
         <nav className="main-nav">
           <h1 className="logo">
             <a href="/" rel="noopener noreferrer">
-              DM.
+              <img
+                src={isDarkMode ? white_logo : black_logo}
+                alt="logo"
+                width={50}
+              />
             </a>
           </h1>
 

@@ -31,7 +31,7 @@ function About() {
             development and web design. I am teachable and flexible in
             everything, I can adapt to any request. I always try to pay
             attention to every single smallest detail. I follow the current web
-            design trends to make sure it always looks as modern and clear
+            design trends to make sure it always looks as modern and clear.
           </p>
 
 
