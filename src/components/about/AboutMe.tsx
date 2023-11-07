@@ -16,7 +16,7 @@ function About() {
   DarkMode();
 
   return (
-    <div>
+    <>
       <section id="about-me" className="settings about-me">
         <div className="container">
           <span>
@@ -73,7 +73,7 @@ function About() {
           </ul>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 
