@@ -35,7 +35,7 @@ function MyWorks() {
           <p>{project.description}</p>
           <div className="technologies">
             {project.technologies.map((technology: any, index: any) => (
-              <p key={index}>{technology}</p>
+              <li key={index}>{technology}</li>
             ))}
           </div>
           <div className="info-icons">
