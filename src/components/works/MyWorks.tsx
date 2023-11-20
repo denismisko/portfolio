@@ -34,7 +34,7 @@ function MyWorks() {
   };
 
   return (
-    <section className="settings hidden works">
+    <section className="settings works">
       <div className="container">
         <span>
           <a href="/" rel="noopener noreferrer">

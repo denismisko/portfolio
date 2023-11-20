@@ -18,7 +18,7 @@ function ContactMe() {
   }
 
   return (
-    <section className="settings hidden">
+    <section className="settings">
       <div className="container flexbox-contact">
         <span>
           <a href="/" rel="noopener noreferrer">

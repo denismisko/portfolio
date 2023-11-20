@@ -69,16 +69,8 @@ form p {
   font-size: 15px;
 }
 
-.input-group span {
-  position: absolute;
-  bottom: 12px;
-  right: 17px;
-  font-size: 14px;
-  color: red;
-}
-
 form button {
-  background: #3d1766;
+  background: $dark-purple;
   color: $white;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 5px;
@@ -93,72 +85,10 @@ form button:hover,
 form button:active,
 form button:focus {
   background: transparent;
-  color: #3d1766;
-  border: 1px solid #3d1766;
-}
-
-#submit-error {
-  color: red;
-}
-
-#submit-error i {
-  color: green;
-}
-
-.input-group span i {
-  color: green;
-}
-
-/* query */
-@media screen and (max-width: 790px) {
-  .flexbox-contact {
-    flex-direction: column;
-  }
-
-  .features {
-    margin: 0;
-  }
-}
-
-/* FEATURES */
-
-.features {
-  margin-left: 40px;
-  position: absolute;
-  top: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.bottom {
-  margin-bottom: 50px;
-}
-
-@media screen and (max-width: 768px) {
-  .features {
-    padding-top: 48px;
-    margin-bottom: 48px;
-  }
-}
-
-.features h3 i {
-  padding: 13px;
   color: $dark-purple;
   border: 1px solid $dark-purple;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.features h3 {
-  padding-bottom: 10px;
-}
-
-.features a {
-  color: $black;
-  font-size: 16px;
 }
 
 .dark .submit-alert a {
   color: $light-purple;
 }
-
