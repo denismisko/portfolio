@@ -8,7 +8,7 @@ function ContactMe() {
   const [state, handleSubmit] = useForm("meqdbzpv");
   if (state.succeeded) {
     return (
-      <p className="text-center submit-alert">
+      <p className="text-center alert">
         Thanks for message I will message you back ASAP!{" "}
         <a href="/" className="homepage-link">
           Home
