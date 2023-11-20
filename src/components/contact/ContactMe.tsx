@@ -42,17 +42,6 @@ function ContactMe() {
 
           <div className="input-group">
             <input
-              type="tel"
-              pattern="^(\+421|00421|0)(\d{3})(\d{3})(\d{3})|^(\+1|001|1)(\d{3})(\d{3})(\d{4})$"
-              placeholder="Tel. number"
-              name="phone"
-              required
-              id="contact-phone"
-            />
-          </div>
-
-          <div className="input-group">
-            <input
               type="email"
               placeholder="Email"
               id="contact-email"
