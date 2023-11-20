@@ -1,28 +1,13 @@
 import "./Works.scss";
 import "../../sass/DarkMode.scss";
 import DarkMode from "../../util/DarkMode";
-import znavrat from "../../assets/znavrat.png";
+import { works, reverseWorks } from "./works";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function MyWorks() {
   
   DarkMode();
-
-  const works: any = [
-    {
-      image: znavrat,
-      name: "Z-Návrat n.o",
-      description:
-        "The website for the resocialization facility is an intuitive and information-rich platform that offers detailed information about the facility's mission, services, and activities. With clear sections on support, rehabilitation and integration into society, it is a key resource for clients, their families and professionals.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      link: "https://www.znavrat.sk",
-    },
-  ];
-
-  const reverseWorks: any = [
-    
-  ];
 
   const renderProjects = (projects: any[], isReversed: boolean) => {
     return projects.map((project, index) => (

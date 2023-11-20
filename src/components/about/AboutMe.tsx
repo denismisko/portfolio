@@ -1,16 +1,6 @@
 import "./About.scss";
 import DarkMode from "../../util/DarkMode";
-import {
-  IconBrandReactNative,
-  IconBrandAngular,
-  IconBrandHtml5,
-  IconBrandCss3,
-  IconBrandSass,
-  IconBrandFigma,
-  IconBrandTypescript,
-  IconBrandBootstrap,
-  IconBrandJavascript,
-} from "@tabler/icons-react";
+import TechStack from "./TechStack";
 
 function About() {
   DarkMode();
@@ -34,43 +24,15 @@ function About() {
             design trends to make sure it always looks as modern and clear.
           </p>
 
-
           <hr />
-        </div>
-      </section>
 
-      <section className="tech-stack">
-        <h3 className="text-center">Tech stack.</h3>
-        <div>
-          <ul>
-            <li title="React">
-              <IconBrandReactNative className="icon" size={35} />
-            </li>
-            <li title="Angular">
-              <IconBrandAngular className="icon" size={35} />
-            </li>
-            <li title="Bootstrap">
-              <IconBrandBootstrap className="icon" size={35} />
-            </li>
-            <li title="CSS3">
-              <IconBrandCss3 className="icon" size={35} />
-            </li>
-            <li title="HTLM5">
-              <IconBrandHtml5 className="icon" size={35} />
-            </li>
-            <li title="Sass">
-              <IconBrandSass className="icon" size={35} />
-            </li>
-            <li title="Figma">
-              <IconBrandFigma className="icon" size={35} />
-            </li>
-            <li title="JavaScipt">
-              <IconBrandJavascript className="icon" size={35} />
-            </li>
-            <li title="TypeScript">
-              <IconBrandTypescript className="icon" size={35} />
-            </li>
-          </ul>
+          <div className="tech-stack">
+            <h3 className="text-center">Tech stack.</h3>
+
+            <ul>
+              <TechStack />
+            </ul>
+          </div>
         </div>
       </section>
     </>

@@ -42,7 +42,6 @@ function Header() {
   return (
     <header className="main-header">
       <div className="container">
-        <div className="main-header-bg"></div>
 
         <nav className="main-nav">
           <h1 className="logo">
